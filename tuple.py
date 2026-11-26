@@ -98,6 +98,23 @@ minimum = min(numbers)
 print("Maximum:", maximum)
 print("Minimum:", minimum)
 
+# chang vulues
+
+
+new_tuple = ("ali", "mohammad", "hossein")
+
+
+new_list = list(new_tuple)
+
+
+print(new_list) 
+
+new_list.append("sara")
+
+new_tuple2 = tuple(new_list)
+
+print(new_tuple2)
+
 
 
 
