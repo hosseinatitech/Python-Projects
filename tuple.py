@@ -115,7 +115,21 @@ new_tuple2 = tuple(new_list)
 
 print(new_tuple2)
 
+print("-----------")
 
+
+nlist = [1, 2, 5, 6]
+
+nlist[0] = 7
+
+print(nlist)
+
+
+
+ntuple = (1, 2, 5, 6)
+
+ntuple[0] = 7
+print(ntuple)
 
 
 
