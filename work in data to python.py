@@ -82,6 +82,25 @@ new_wb.close()
 
 
 
+import openpyxl
+
+wb = openpyxl.Workbook()
+ws = wb.active
+
+ws.title = "Students"
+
+ws.append(["Name", "Age", "Score"])
+
+ws.append(["Ali", 20, 18])
+ws.append(["Sara", 22, 19])
+ws.append(["Reza", 21, 17])
+
+wb.save("C:/Users/mn/Desktop/students.xlsx")
+wb.close()
+
+
+
+
 
 
 
